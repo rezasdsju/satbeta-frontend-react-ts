@@ -17,7 +17,7 @@ const Nav = () => {
         }
     }
     return (
-        <div className="sticky top-0 bg-white mb-1 flex justify-between py-4 px-2 sm:grid sm:grid-cols-12  sm:py-2">
+        <div className="sticky top-0 z-50 bg-white mb-1 flex justify-between py-4 px-2 sm:grid sm:grid-cols-12  sm:py-2">
             {/* <img src={NavLogo} className="text-xl h-8 sm:col-span-1 sm:text-3xl"/> */}
             {/* <h1 className="text-xl sm:col-span-1 sm:text-3xl"><span>S</span><span>A</span><span>T</span></h1> */}
             <h1 className="text-xl sm:col-span-1 sm:text-3xl flex items-center font-black cursor-pointer select-none">
@@ -25,7 +25,7 @@ const Nav = () => {
                 <span className="text-amber-500 transform -rotate-0 hover:rotate-0 transition-transform inline-block mx-0.5">A</span>
                 <span className="text-indigo-600 hover:scale-110 transition-transform">T</span>
             </h1>
-            <div className="hidden sm:flex items-center sm:col-span-1 sm:gap-2 ">
+            <div className="hidden sm:flex sm:items-center sm:col-span-1 sm:gap-2 sm:ml-2">
                 <button onClick={() => handleScroll('left')}> <FaChevronCircleLeft /></button>
 
                 <button onClick={() => handleScroll('right')}><FaChevronCircleRight /></button>

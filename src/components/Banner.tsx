@@ -7,12 +7,12 @@ const Banner = () => {
             <div className='sm:col-span-8 flex flex-col items-center text-center'>
                 <h2 className='text-black text-2xl sm:text-4xl '>School of Analytics and Technology</h2>
                 <p className='text-black text-center '>Bridge to Efficient Thinking & Advancement</p>
-                <div className='w-full  text-justify mt-6'>
+                <div className='w-full  text-justify mt-6 text-blue-900'>
                     <p>The School of Analytics and Technology (SAT) is a premier learning platform dedicated to empowering learners with in-demand skills in programming, data analysis, research, and much more. SAT is designed to provide a seamless and engaging learning experience through a variety of practical tools and resources.</p>
                 </div>
                 <button className="hidden sm:block btn btn-accent mt-5 px-7">Explore More</button>
             </div>
-            <div className='sm:col-span-4'>
+            <div className='sm:col-span-4 sm:ml-6'>
                 <img src={BannerImage} alt="" className='h-50 rounded-3xl mx-auto' />
 
             </div>
