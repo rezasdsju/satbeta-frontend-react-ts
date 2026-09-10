@@ -1,0 +1,19 @@
+# 📚 SAT EdTech Platform — Interactive Learning, Online Exams & Resource Management
+
+
+### 🌐 Navigation Bar Specifications
+
+#### 📌 Positioning & Behavior
+* **Sticky Navigation:** Nav is fixed to the top (`sticky top-0 z-50`) during vertical page scrolling to maintain continuous accessibility.
+
+#### 📱 Mobile Layout (`< 640px` / Extra Small Devices)
+* **Layout System:** Flexbox Layout
+* **Visibility Rules:**
+  * **Visible:** Brand Name (Logo) & Authentication Actions (`Log In` / `Register`).
+  * **Hidden:** Navigation Links.
+
+---
+
+#### 💻 Responsive Layout (`≥ 640px` / Small & Larger Devices)
+* **Layout System:** 12-Column CSS Grid Layout
+* **Visibility Rules:** All elements (Brand Name, Scrollable Navigation Links with controls, and Auth Actions) are fully visible in structured grid columns.
