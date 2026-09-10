@@ -1,11 +1,24 @@
 // import React from 'react';
-
+// import BannerImage from '../assets/sat-banner-2.png'
+import BannerImage from '../assets/banner-3.png'
 const Banner = () => {
     return (
-        <div className="bg-amber-100 h-300 w-full">
-            
+        <div className='grid grid-cols-1 sm:grid-cols-12 items-center px-3 sm:px-7 bg-linear-to-br from-blue-200 via-purple-50 to-cyan-100 py-4 sm:py-15 ' >
+            <div className='sm:col-span-8 flex flex-col items-center text-center'>
+                <h2 className='text-black text-2xl sm:text-4xl '>School of Analytics and Technology</h2>
+                <p className='text-black text-center '>Bridge to Efficient Thinking & Advancement</p>
+                <div className='w-full  text-justify mt-6'>
+                    <p>The School of Analytics and Technology (SAT) is a premier learning platform dedicated to empowering learners with in-demand skills in programming, data analysis, research, and much more. SAT is designed to provide a seamless and engaging learning experience through a variety of practical tools and resources.</p>
+                </div>
+                <button className="hidden sm:block btn btn-accent mt-5 px-7">Explore More</button>
+            </div>
+            <div className='sm:col-span-4'>
+                <img src={BannerImage} alt="" className='h-50 rounded-3xl mx-auto' />
+
+            </div>
         </div>
     );
 };
 
 export default Banner;
+
