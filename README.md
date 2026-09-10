@@ -1,6 +1,6 @@
 # 📚 SAT EdTech Platform — Interactive Learning, Online Exams & Resource Management
 
-🚀 **Live Demo:** [satbeta-frontend.vercel.app](https://satbeta-frontend-b2htkqpaa-reza-babd.vercel.app)
+🚀 **Live Demo:** [satbeta-frontend.vercel.app]( https://satbeta-frontend-aby3z39lw-reza-babd.vercel.app)
 
 ---
 
