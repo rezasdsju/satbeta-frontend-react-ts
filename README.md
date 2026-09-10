@@ -27,3 +27,11 @@
 - **Styling & Gradient:** Modern background styling using Tailwind CSS custom color gradients (`from-blue-200 via-purple-50 to-cyan-100`).
 - **Typography & Alignment:** Features dynamic headings and justified descriptive paragraphs (`text-justify`) to maintain edge-to-edge text symmetry.
 - **UI Components:** Integrated [DaisyUI](https://daisyui.com/) interactive buttons (`btn btn-accent`) configured with responsive visibility (`hidden sm:block`).
+
+
+## Footer
+
+* Displays the SAT platform logo and tagline.
+* Provides quick links to major sections such as Exam, Files, Data Analysis, Programming, and Tutorials.
+* Includes exam categories such as Math, Physics, and Biology.
+* Uses a responsive layout for different screen sizes.

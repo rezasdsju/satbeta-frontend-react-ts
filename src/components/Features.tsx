@@ -1,6 +1,6 @@
 export default function Features() {
     return (
-        <div className="mt-8 px-3 sm:px-6">
+        <div id="features" className="mt-8 px-3 sm:px-6">
             <h2 className="text-3xl sm:text-4xl font-bold text-center text-slate-800">
                 Explore Features
             </h2>
@@ -56,3 +56,5 @@ export default function Features() {
         </div>
     )
 }
+
+
